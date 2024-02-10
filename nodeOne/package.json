@@ -1,0 +1,27 @@
+{
+  "name": "nodeone",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0",
+  "description": "this is my first node js",
+  "exports": "./index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "mine"
+  ],
+  "author": "Marina",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "colors": "^1.4.0",
+    "nodemon": "^3.0.1"
+  }
+}
