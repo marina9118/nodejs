@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile Page</title>
+</head>
+<body>
+    <%- include('common/header') %> <!-- hyphon is used to tell that this is an html file that have to load and when we use equal(=) it means we want to show output -->
+<h1>Welcome <%= user.name %></h1>
+<h3>Your email is <%= user.email %></h3>
+<h3>Your mobile number is <%= user.phone %></h3>
+<h2>Skill</h2>
+<%
+user.skills.forEach((skill)=>{
+    %>
+    <li><%= skill %></li>
+    <% }) %>
+    <%- include('common/footer') %>
+</body>
+</html>
